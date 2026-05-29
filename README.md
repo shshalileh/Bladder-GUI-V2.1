@@ -1,6 +1,6 @@
 # Bladder GUI V2.1
 
-Bladder GUI V2.1 is the Android smartphone application for a wireless, battery-free implantable bladder volume sensor patch. The app communicates with the patch through an RF430FRL152H transponder, reads bladder sensor data, plots bladder volume trends, and supports exporting the collected data from a smartphone.
+Bladder GUI V2.1 is the Android smartphone application for a wireless, battery-free implantable bladder volume sensor patch. The app communicates with the patch through an RF430FRL15XH transponder, reads bladder sensor data, plots bladder volume trends, and supports exporting the collected data from a smartphone.
 
 ## Features
 
