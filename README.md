@@ -46,3 +46,7 @@ Command-line build, when the Android SDK and Gradle environment are configured:
 ## NFC Requirement
 
 The app requires an Android smartphone with NFC support. The manifest declares `android.hardware.nfc` as required.
+
+## License
+
+This project is licensed under the Apache License 2.0. See the LICENSE file for details.
