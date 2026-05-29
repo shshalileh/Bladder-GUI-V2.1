@@ -1,0 +1,5 @@
+FILE QUARANTINED
+
+Microsoft Forefront Protection for Exchange Server MTW02HBX01 removed a file since it was found to match a filter.
+File name: "winmail.dat->ti-sensor-app.zip->gradlew.bat"
+Filter name: "FILE FILTER= MindTree Blocked Attachments List: *.bat"

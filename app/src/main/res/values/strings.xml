@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bladder GUI 2.1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="nfc_reader_writer">NFC Reader/Writer Operations</string>
+    <string name="nfc_iso_string">ISO15693 Operations</string>
+    <string name="nfc_peer_to_peer">NFC Peer to Peer Operations</string>
+    <string name="nfc_ti_com_string">www.ti.com/nfc</string>
+    <string name="nfc_read_string">READ</string>
+    <string name="nfc_write_string">WRITE</string>
+    <string name="blank_string"></string>
+    <string name="wifi_authentication_key">Authentication Key</string>
+    <string name="wifi_auth_key">Auth Key</string>
+    <string name="wifi_auth_type">Auth Type</string>
+    <string name="wifi_ssid">SSID</string>
+    <string name="string_ti_logo">TI Logo</string>
+    <string name="string_present_tag_to_read">Present TI Bio Patch Tag to Read</string>
+    <string name="string_tag_type">Tag type</string>
+    <string name="string_format_tag">NDEF Format Tag</string>
+    <string name="string_tag_data">Tag data</string>
+    <string name="string_present_tag">Present NFC Tag to Read</string>
+    <string name="string_data_to_transfer">Type data to transfer</string>
+    <string name="string_present_tag_transfer">Present tag and hit Button to Transfer</string>
+    <string name="string_read_another_tag">Read another tag</string>
+    <string name="string_nfc_reader_writer_operations">NFC Reader/Writer operations</string>
+    <string name="string_nfc_write_operations">NFC Write Operations</string>
+    <string name="string_rtd_operations">RTD Operations</string>
+    <string name="string_wifi_configuration">WiFi Configuration</string>
+    <string name="string_file_transfer_to_dynamic_tag">File Transfer To Dynamic Tag</string>
+    <string name="string_p2p_text_transfer">P2P Text Transfer</string>
+    <string name="string_type_text_type_device_to_send">Type text and tap another device to send</string>
+    <string name="string_present_device_to_beam">Present device and hit button to beam</string>
+    <string name="string_nfc_rtd_operations">NFC RTD Operations</string>
+    <string name="string_txt">TXT</string>
+    <string name="string_uri">URI</string>
+    <string name="string_text_transfer">Text Transfer</string>
+    <string name="string_present_nfc_tag_to_transfer">Input information to write</string>
+    <string name="string_hit_button_to_transfer">Hit Button to Transfer</string>
+    <string name="string_uri_transfer">URI Transfer</string>
+    <string name="string_http">http://</string>
+    <string name="string_write_tag">Write Tag</string>
+    <string name="string_select_operation">Select Operation</string>
+    <string name="string_receive_text">Receive text</string>
+    <string name="string_test_commands">Test Commands</string>
+    <string name="string_read_tag">_Read Tag</string>
+    <string name="string_iso15693_tag_technology_operations">Bladder Volume</string>
+    <string name="string_bladder_volume">Bladder Volume</string>
+
+    <!-- P2P Strings -->
+    <string name="string_p2p_operations">Peer to Peer operations</string>
+    <string name="string_p2p_operations_send">P2P Send</string>
+    <string name="string_p2p_operations_receive">P2P Receive</string>
+    <string name="string_p2p_receive_text">Receive Text</string>
+    <string name="string_p2p_receive_wifi_configuration">Receive WiFi</string>
+    <string name="string_p2p_send_text">Send Text</string>
+    <string name="string_p2p_send_wifi_configuration">Send WiFi Configuration</string>
+    <string name="string_p2p_tap_nfc_device_to_receive_text">Tap another NFC device to receive text</string>
+    <string name="string_p2p_tap_nfc_device_to_receive_wifi">Tap another NFC device to receive WiFi configuration</string>
+    <string name="string_p2p_tap_nfc_device_to_send_wifi">Tap another NFC device to send WiFi configuration</string>
+
+    <!-- WiFi -->
+    <string name="string_wifi_apply_config">Apply WiFi Config</string>
+
+    <string-array name="wifi_auth_types">
+        <item>OPEN</item>
+        <item>WEP</item>
+        <item>WPA</item>
+        <item>WPA2</item>
+    </string-array>
+    <string-array name="commands15693">
+        <item>ReadSingleBlock</item>
+        <item>WriteSingleBlock</item>
+        <item>ReadMultipleBlocks</item>
+        <item>GetSystemInfo</item>
+        <item>GetSecurityStatus</item>
+    </string-array>
+    <string-array name="data_types">
+        <item>ASCII</item>
+        <item>HEX</item>
+    </string-array>
+
+    <!-- Read NFC Tag -->
+    <string name="read_nfc_tag_dialog_message">Place a tag firmly against the back of the device. </string>
+    <string name="cancel">Cancel</string>
+    <string name="string_text_to_transfer">Text to transfer</string>
+    <string name="string_url_to_transfer">Url to transfer</string>
+    <string name="string_network_name">Network name</string>
+    <string name="string_place_a_tag_firmly">Place device on top of the RF430FRL152H board.
+</string>
+    <string name="string_about">About</string>
+    <string name="string_about_content">Created By: Shahriar Shalileh</string>
+    <string name="string_about_tab">Bladder GUI Ver V1.1</string>
+    <string name="username_string">Username</string>
+    <string name="password_string">Password</string>
+    <string name="register_string">register</string>
+    <string name="title_activity_webviewlogin">Webviewlogin</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

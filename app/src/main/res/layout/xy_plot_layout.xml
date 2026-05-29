@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_plot_screen"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/aprHistoryPlot"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        androidPlot.domainLabel="Time (sec)"
+        androidPlot.rangeLabel="Resistance (Kohm)"
+        androidPlot.title="Live Reading"
+        androidPlot.titleWidget.labelPaint.textSize="20dp"
+        androidPlot.domainLabelWidget.labelPaint.textSize="13dp"
+        androidPlot.rangeLabelWidget.labelPaint.textSize="13dp"
+        androidplot.renderMode="use_background_thread" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/bg_plot_status"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="Not recording | Saved samples: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+
+        <Button
+            android:id="@+id/button_start_recording"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_primary"
+            android:text="Start"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/button_pause_recording"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_secondary"
+            android:text="Pause"
+            android:textColor="#102A43"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/button_resume_recording"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_secondary"
+            android:text="Resume"
+            android:textColor="#102A43"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/button_stop_recording"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_secondary"
+            android:text="Stop"
+            android:textColor="#102A43"
+            android:textSize="13sp" />
+    </LinearLayout>
+</LinearLayout>

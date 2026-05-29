@@ -1,0 +1,9 @@
+* text=auto
+
+*.sh text eol=lf
+gradlew text eol=lf
+
+# Keep GitHub language statistics focused on app source.
+gradle/wrapper/gradle-wrapper.jar linguist-generated
+app/src/main/res/drawable-*/ti_* linguist-vendored
+app/src/main/res/drawable-*/read_tag* linguist-vendored

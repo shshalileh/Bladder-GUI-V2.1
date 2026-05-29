@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/read_iso_linear_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/textview_read_iso_tab"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/border_for_tabs"
+                android:text="@string/string_present_tag_to_read"
+                android:textSize="25sp"
+                android:textColor="#FF282828"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                />
+
+        <TextView
+                android:id="@+id/textview_read_iso_taginfo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@drawable/border_gray_rounded_corner"
+                android:textSize="20sp"
+                android:textColor="#FF000000"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+        <TextView
+                android:id="@+id/textview_read_iso_tag_data_tab"
+                android:layout_height="35dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/border_gray_rounded_corner"
+                android:text="@string/string_tag_data"
+                android:textSize="25sp"
+                android:textColor="#FF585858"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        <TextView
+                android:id="@+id/textview_read_iso_tagdata"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@drawable/border_gray_rounded_corner"
+                android:textSize="20sp"
+                android:textColor="#FF000000"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        <ImageView
+                android:id="@+id/image_ti_icon_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ti_logo_transparent"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/string_ti_logo">
+        </ImageView>
+
+
+    </LinearLayout>
+
+</ScrollView>
